@@ -68,7 +68,7 @@ if person_class_id is None or sports_ball_class_id is None: raise ValueError(f"C
 print(f"Person ID: {person_class_id}, Ball ID: {sports_ball_class_id}. YOLO loaded.")
 
 # --- Video I/O ---
-video_path = "/home/omkedar/PycharmProjects/Major Project/Hand Detection/football-video-analysis/demo.mp4"
+video_path = "demo.mp4"
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened(): raise ValueError(f"Cannot open video: {video_path}")
 fps = cap.get(cv2.CAP_PROP_FPS); frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)); frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))

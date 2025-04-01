@@ -27,6 +27,9 @@ This project analyzes football match videos using the YOLOv12 model and ByteTrac
 ![Depth Map](sample/depth_frame_0031.png)  
 *Example of a depth map generated using MiDaS.*
 
+## Demo Video
+![Demo Video](sample/demo.gif)
+
 ## Prerequisites
 - **Python**: 3.8 or higher.
 - **Video File**: An MP4 video of a football match (not included due to size; provide your own).

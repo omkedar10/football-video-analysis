@@ -9,3 +9,5 @@ results/
 *.mp4
 results_depth_highlight
 .yolo_cache/
+results/
+results_depth_highlight/

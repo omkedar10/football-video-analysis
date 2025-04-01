@@ -48,7 +48,7 @@ print(f"Sports ball class ID: {sports_ball_class_id}")
 # -----------------------------
 # Video input/output setup
 # -----------------------------
-video_path = "/home/omkedar/PycharmProjects/Major Project/Hand Detection/football-video-analysis/demo.mp4"
+video_path = "demo.mp4"
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     raise ValueError(f"Could not open video at {video_path}")
