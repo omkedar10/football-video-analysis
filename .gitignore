@@ -5,4 +5,5 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+*.mp4
 .yolo_cache/

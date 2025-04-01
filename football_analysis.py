@@ -37,7 +37,7 @@ for folder in [base_dir, video_dir, graph_dir, image_dir, data_dir]:
 # -----------------------------
 # Setup: Load YOLO model and extract class IDs
 # -----------------------------
-model = YOLO("yolo12n.pt")  # or "yolov8n.pt"
+model = YOLO("yolo12n.pt")
 person_class_id = next((k for k, v in model.names.items() if v == "person"), None)
 sports_ball_class_id = next((k for k, v in model.names.items() if v == "sports ball"), None)
 if person_class_id is None or sports_ball_class_id is None:
