@@ -20,11 +20,11 @@ This project analyzes football match videos using the YOLOv12 model and ByteTrac
 
 ## Demo
 ### Ball Trajectory and Passes
-![Ball Trajectory](results/images/ball_trajectory_and_passes.png)  
+![Ball Trajectory](sample/ball_trajectory_and_passes.png)  
 *Example of the ball trajectory with pass annotations (output saved as `ball_trajectory_and_passes.png`).*
 
 ### Depth Maps
-![Depth Map](results_depth_highlight/depth_maps/depth_frame_0031.png)  
+![Depth Map](sample/depth_frame_0031.png)  
 *Example of a depth map generated using MiDaS.*
 
 ## Prerequisites
