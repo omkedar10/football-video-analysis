@@ -30,6 +30,9 @@ This project analyzes football match videos using the YOLOv12 model and ByteTrac
 ## Demo Video
 ![Demo Video](sample/demo.gif)
 
+## Depth Demo Video
+![Depth Demo Video](sample/depth_demo.gif)
+
 ## Prerequisites
 - **Python**: 3.8 or higher.
 - **Video File**: An MP4 video of a football match (not included due to size; provide your own).
@@ -62,7 +65,7 @@ This project analyzes football match videos using the YOLOv12 model and ByteTrac
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-- [YOLOv8](https://github.com/ultralytics/ultralytics)
+- [YOLO12](https://github.com/sunsmarterjie/yolov12)
 - [MiDaS Depth Estimation](https://github.com/intel-isl/MiDaS)
 - [DeepSORT](https://github.com/nwojke/deep_sort)
 
