@@ -30,9 +30,6 @@ This project analyzes football match videos using the YOLOv12 model and ByteTrac
 ## Demo Video
 ![Demo Video](sample/demo.gif)
 
-## Depth Demo Video
-![Depth Demo Video](sample/depth_demo.gif)
-
 ## Prerequisites
 - **Python**: 3.8 or higher.
 - **Video File**: An MP4 video of a football match (not included due to size; provide your own).
